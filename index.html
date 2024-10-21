@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- first we will start with the heading 
+        After the heading we will have the field in which the output will be displayed
+        below which we will have a button, on clicking it we will generate the random pass -->
+    <div class="main">
+        <h1 id="title">Random Password Generator</h1>
+        <div class="pass">
+            <p>Here is the Password- </p>
+            <p id="random-pass"></p>
+        </div>
+        <p id="warn">P.S.: It's a 10 digit password</p>
+        <button onclick="generatePass()" id="gen-btn">Generate</button>
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>
+
+<!-- Work on this project is completed -->

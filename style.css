@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #0A122A;
+}
+
+.main {
+    background-color: #698f3f;
+    margin: 200px 400px;
+    border-radius: 10px;
+    border: solid darkolivegreen 20px;
+    padding: 10px 100px;
+    color: white;
+}
+
+#title {
+    margin-bottom: 50px;
+    color: yellow;
+}
+
+.pass {
+    font-size: larger;
+    font-weight: bolder;
+    background-color: black;
+    padding: 10px;
+    margin: 10px 100px;
+    border-radius: 10px;
+}
+
+#warn {
+    background-color: darkgreen;
+    padding: 10px;
+    margin: 10px 100px;
+    border-radius: 10px;
+}
+
+#gen-btn {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: darkgreen;
+    cursor: pointer;
+}
